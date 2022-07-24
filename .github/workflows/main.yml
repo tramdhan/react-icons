@@ -17,8 +17,8 @@ jobs:
           # registry-url: https://registry.npmjs.org
           registry-url: https://npm.pkg.github.com
           scope: "@tramdhan"
-      - run: yarn install
-      - run: yarn publish
+      # - run: yarn install
+      - run: npm publish
         # run: npm publish --access public
         working-directory: react-icons
         env:
