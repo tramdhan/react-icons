@@ -10,16 +10,19 @@ jobs:
     # name: publish
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.4.2
-      - uses: actions/setup-node@v3.4.1
+      - name: Checkout
+        uses: actions/checkout@v2.4.2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.4.1
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org
           # registry-url: https://npm.pkg.github.com
           scope: "@tramdhan"
       # - run: yarn install
-      - run: npm publish
-        # run: npm publish --access public
+      # - run: npm publish
+        - name: publish
+          run: npm publish --access public
         working-directory: react-icons
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
