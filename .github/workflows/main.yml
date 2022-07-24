@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  publish-gpr:
+  publish:
     # name: publish
     runs-on: ubuntu-latest
     steps:
