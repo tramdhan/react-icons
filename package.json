@@ -1,13 +1,13 @@
 {
-  "name": "@tramdhan/react-icons",
-  "version": "1.1.4",
-  "description": "React SVG icon library",
+  "name": "@tramdhan/react-icon-library",
+  "version": "1.1.5",
+  "description": "React SVG icon library for all apps",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tramdhan/react-icons.git"
+    "url": "https://github.com/tramdhan/react-icon-lib.git"
   },
-  "homepage": "https://github.com/tramdhan/react-icons",
+  "homepage": "https://github.com/tramdhan/react-icon-lib",
   "module": "dist/index.esm.js",
   "files": [
     "dist"
