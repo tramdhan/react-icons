@@ -7,7 +7,6 @@ on:
 
 jobs:
   publish:
-    # name: publish
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.4.2
@@ -15,9 +14,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16"
-          registry-url: https://registry.npmjs.org
+          registry-url: https://npm.pkg.github.com
+          # registry-url: https://registry.npmjs.org
           scope: "@tramdhan"
-        # registry-url: https://npm.pkg.github.com
+
       # - run: yarn install
       # - run: npm publish
     - name: publish
