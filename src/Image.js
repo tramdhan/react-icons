@@ -14,7 +14,7 @@ const SvgImage = ({ title, titleId, ...props }) => (
       data-name="Group 19"
       transform="translate(-648.2 -895.5)"
       fill="none"
-      stroke="newColor"
+      stroke={props.color}
       strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={4}

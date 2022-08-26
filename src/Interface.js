@@ -13,7 +13,7 @@ const SvgInterface = ({ title, titleId, ...props }) => (
     <g
       data-name="Group 13"
       fill="none"
-      stroke="newColor"
+      stroke={props.color}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeMiterlimit={10}

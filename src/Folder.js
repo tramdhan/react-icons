@@ -13,7 +13,7 @@ const SvgFolder = ({ title, titleId, ...props }) => (
     <g
       data-name="Group 3"
       fill="none"
-      stroke="newColor"
+      stroke={props.color}
       strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={4}

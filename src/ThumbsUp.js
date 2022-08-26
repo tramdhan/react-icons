@@ -14,7 +14,7 @@ const SvgThumbsUp = ({ title, titleId, ...props }) => (
     <path
       d="M26.002 13H20V7.026a2.026 2.026 0 0 0-3.608-1.266L9 15h.001H9v10l3 2h12.473c.892 0 1.676-.592 1.921-1.451l2.49-8.725C29.43 14.908 27.993 13 26.002 13zM3 13h6v14H3z"
       fill="none"
-      stroke="newColor"
+      stroke={props.color}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeMiterlimit={10}

@@ -13,7 +13,7 @@ const SvgPosition = ({ title, titleId, ...props }) => (
     <g
       data-name="Group 24"
       fill="none"
-      stroke="newColor"
+      stroke={props.color}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeMiterlimit={10}

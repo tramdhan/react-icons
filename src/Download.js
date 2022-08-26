@@ -13,7 +13,7 @@ const SvgDownload = ({ title, titleId, ...props }) => (
     <g
       data-name="Group 20"
       transform="translate(-470.6 -883.7)"
-      stroke="newColor"
+      stroke={props.color}
       strokeMiterlimit={10}
     >
       <path

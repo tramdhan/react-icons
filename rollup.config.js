@@ -7,7 +7,7 @@ const config = {
     file: "dist/index.esm.js",
     format: "esm",
   },
-  external: [/@babel\/runtime/],
+  external: [/@babel\/runtime/, "react"],
   plugins: [babel({ babelHelpers: "runtime", plugins: ["@babel/plugin-transform-runtime"] }), filesize()],
 };
 

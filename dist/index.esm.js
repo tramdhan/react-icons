@@ -18,7 +18,7 @@ const SvgChart = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 16",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -56,7 +56,7 @@ const SvgCloudDownload = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("path", {
     d: "M24.972 12.288C24.608 7.657 20.723 4 16 4a8.937 8.937 0 0 0-8.627 6.451A8.003 8.003 0 0 0 2 18c0 4.411 3.589 8 8 8h13c3.86 0 7-3.14 7-7a6.97 6.97 0 0 0-5.028-6.712zm-4.265 5.419-4 4a.997.997 0 0 1-1.414 0l-4-4A1 1 0 0 1 12 16h2v-4a2 2 0 0 1 4 0v4h2a1.002 1.002 0 0 1 .707 1.707z",
     fill: "none",
-    stroke: "newColor"
+    stroke: props.color
   }));
 };
 
@@ -77,7 +77,7 @@ const SvgCog = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 6",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -110,12 +110,12 @@ const SvgDatabase = _ref => {
   }, /*#__PURE__*/React.createElement("path", {
     "data-name": "Path 1",
     d: "M41.088 4c26 0 37 9.3 37 9.3v73.4c0 1.9-11.9 12.7-37 12.7-22.9 0-37-10.3-37-12.7V13.3s6.9-9.3 37-9.3m0-4c-31.2 0-39.3 9.9-40.2 11a4.069 4.069 0 0 0-.8 2.4v73.4c0 4.8 8.6 9.2 12.3 10.9a70.668 70.668 0 0 0 28.7 5.8c14.1 0 23.9-3.3 29.6-6 2.7-1.3 11.3-5.8 11.3-10.6V13.5a3.749 3.749 0 0 0-1.4-3c-.5-.6-12.4-10.5-39.5-10.5Z",
-    fill: "newColor"
+    fill: props.color
   }), /*#__PURE__*/React.createElement("path", {
     "data-name": "Path 2",
     d: "M78.788 37.1s-13.3 9.7-37.7 9.7c-24.5 0-38-9.7-38-9.7",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -124,7 +124,7 @@ const SvgDatabase = _ref => {
     "data-name": "Path 3",
     d: "M78.688 60.7s-13.2 9.7-37.7 9.7-38.2-9.7-38.2-9.7",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -132,29 +132,29 @@ const SvgDatabase = _ref => {
   }), /*#__PURE__*/React.createElement("path", {
     "data-name": "Path 4",
     d: "M17.788 19a3.372 3.372 0 0 1 3.9 3.9 3.189 3.189 0 0 1-2.6 2.6 3.372 3.372 0 0 1-3.9-3.9 3.606 3.606 0 0 1 2.6-2.6Z",
-    fill: "newColor",
-    stroke: "newColor",
+    fill: props.color,
+    stroke: props.color,
     strokeMiterlimit: 10,
     strokeWidth: 2
   }), /*#__PURE__*/React.createElement("path", {
     "data-name": "Path 5",
     d: "M17.788 51.9a3.372 3.372 0 0 1 3.9 3.9 3.189 3.189 0 0 1-2.6 2.6 3.372 3.372 0 0 1-3.9-3.9 3.313 3.313 0 0 1 2.6-2.6Z",
-    fill: "newColor",
-    stroke: "newColor",
+    fill: props.color,
+    stroke: props.color,
     strokeMiterlimit: 10,
     strokeWidth: 2
   }), /*#__PURE__*/React.createElement("path", {
     "data-name": "Path 6",
     d: "M17.788 78.7a3.372 3.372 0 0 1 3.9 3.9 3.189 3.189 0 0 1-2.6 2.6 3.372 3.372 0 0 1-3.9-3.9 3.452 3.452 0 0 1 2.6-2.6Z",
-    fill: "newColor",
-    stroke: "newColor",
+    fill: props.color,
+    stroke: props.color,
     strokeMiterlimit: 10,
     strokeWidth: 2
   }), /*#__PURE__*/React.createElement("path", {
     "data-name": "Path 7",
     d: "M30.488 26.1c3.2.3 6.6.4 10.1.4 21 0 38.1-5.3 38.1-11.8s-17.1-11.8-38.1-11.8c-10.1 0-20.5 1.1-27.5 3.1",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeMiterlimit: 10,
     strokeWidth: 4
@@ -181,17 +181,17 @@ const SvgDelete = _ref => {
     "data-name": "Path 40",
     d: "M68.7 33.3H6.6A4.653 4.653 0 0 1 2 28.7v-9.2a4.653 4.653 0 0 1 4.6-4.6h62.1a4.653 4.653 0 0 1 4.6 4.6v9.2a4.653 4.653 0 0 1-4.6 4.6Z",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeMiterlimit: 10,
     strokeWidth: 4
   }), /*#__PURE__*/React.createElement("path", {
     "data-name": "Path 41",
     d: "M64.5 36v41c-.7.5-3.2 1.9-10 3.1a108.881 108.881 0 0 1-17.2 1.5 92.907 92.907 0 0 1-16.8-1.5c-6.6-1.2-8.9-2.5-9.6-3V36h53.6m4-4H6.9v45.7c0 5.3 18.5 7.8 30.4 7.8s31.2-2.5 31.2-7.8V32Z",
-    fill: "newColor"
+    fill: props.color
   }), /*#__PURE__*/React.createElement("path", {
     "data-name": "Line 17",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -200,7 +200,7 @@ const SvgDelete = _ref => {
   }), /*#__PURE__*/React.createElement("path", {
     "data-name": "Line 18",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -209,7 +209,7 @@ const SvgDelete = _ref => {
   }), /*#__PURE__*/React.createElement("path", {
     "data-name": "Line 19",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -219,7 +219,7 @@ const SvgDelete = _ref => {
     "data-name": "Path 42",
     d: "M21.9 14.2S20.2 2 36.8 2s16.7 12.2 16.7 12.2",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeMiterlimit: 10,
     strokeWidth: 4
   })));
@@ -242,7 +242,7 @@ const SvgDownload = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 20",
     transform: "translate(-470.6 -883.7)",
-    stroke: "newColor",
+    stroke: props.color,
     strokeMiterlimit: 10
   }, /*#__PURE__*/React.createElement("path", {
     "data-name": "Path 57",
@@ -296,7 +296,7 @@ const SvgEdit = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 11",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeMiterlimit: 10,
     strokeWidth: 4
   }, /*#__PURE__*/React.createElement("path", {
@@ -330,7 +330,7 @@ const SvgFolder = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 3",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeMiterlimit: 10,
     strokeWidth: 4
@@ -360,7 +360,7 @@ const SvgHome = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 21",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeMiterlimit: 10,
     strokeWidth: 5
@@ -394,7 +394,7 @@ const SvgImage = _ref => {
     "data-name": "Group 19",
     transform: "translate(-648.2 -895.5)",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeMiterlimit: 10,
     strokeWidth: 4
@@ -430,7 +430,7 @@ const SvgInterface = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 13",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -470,7 +470,7 @@ const SvgLaptop = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 17",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeMiterlimit: 10,
     strokeWidth: 4
@@ -513,7 +513,7 @@ const SvgMagnifier = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("path", {
     d: "m27.414 24.586-5.077-5.077A9.932 9.932 0 0 0 24 14c0-5.514-4.486-10-10-10S4 8.486 4 14s4.486 10 10 10a9.932 9.932 0 0 0 5.509-1.663l5.077 5.077a2 2 0 1 0 2.828-2.828zM7 14c0-3.86 3.14-7 7-7s7 3.14 7 7-3.14 7-7 7-7-3.14-7-7z",
     fill: "none",
-    stroke: "newColor"
+    stroke: props.color
   }));
 };
 
@@ -534,7 +534,7 @@ const SvgPosition = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 24",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -568,7 +568,7 @@ const SvgShare = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("g", {
     "data-name": "Group 8",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeMiterlimit: 10,
     strokeWidth: 4
   }, /*#__PURE__*/React.createElement("path", {
@@ -615,7 +615,7 @@ const SvgThumbsDown = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("path", {
     d: "M5.998 19H12v5.974a2.026 2.026 0 0 0 3.608 1.266L23 17h-.001H23V7l-3-2H7.527c-.891 0-1.675.592-1.92 1.451l-2.49 8.725C2.57 17.092 4.007 19 5.998 19zM29 19h-6V5h6z",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,
@@ -645,7 +645,7 @@ const SvgThumbsUp = _ref => {
   }, title) : null, /*#__PURE__*/React.createElement("path", {
     d: "M26.002 13H20V7.026a2.026 2.026 0 0 0-3.608-1.266L9 15h.001H9v10l3 2h12.473c.892 0 1.676-.592 1.921-1.451l2.49-8.725C29.43 14.908 27.993 13 26.002 13zM3 13h6v14H3z",
     fill: "none",
-    stroke: "newColor",
+    stroke: props.color,
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeMiterlimit: 10,

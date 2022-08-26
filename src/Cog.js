@@ -13,7 +13,7 @@ const SvgCog = ({ title, titleId, ...props }) => (
     <g
       data-name="Group 6"
       fill="none"
-      stroke="newColor"
+      stroke={props.color}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeMiterlimit={10}

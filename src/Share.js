@@ -13,7 +13,7 @@ const SvgShare = ({ title, titleId, ...props }) => (
     <g
       data-name="Group 8"
       fill="none"
-      stroke="newColor"
+      stroke={props.color}
       strokeMiterlimit={10}
       strokeWidth={4}
     >
