@@ -31,10 +31,10 @@
   "author": "Trevor Ramdhan",
   "license": "ISC",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.22.5",
-    "@babel/preset-env": "^7.22.5",
+    "@babel/plugin-transform-runtime": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
     "@babel/preset-react": "^7.22.5",
-    "@babel/runtime": "^7.22.5",
+    "@babel/runtime": "^7.23.2",
     "@rollup/plugin-babel": "^5.3.1",
     "@svgr/cli": "^6.5.1",
     "rimraf": "^3.0.2",
