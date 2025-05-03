@@ -31,9 +31,9 @@
   "author": "Trevor Ramdhan",
   "license": "ISC",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.26.9",
-    "@babel/preset-env": "^7.26.9",
-    "@babel/preset-react": "^7.25.7",
+    "@babel/plugin-transform-runtime": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
     "@babel/runtime": "^7.26.9",
     "@rollup/plugin-babel": "^5.3.1",
     "@svgr/cli": "^6.5.1",
